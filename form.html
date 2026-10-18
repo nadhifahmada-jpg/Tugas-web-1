@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h2>form.html</h2>
+    <fieldset style="width: 350px;">
+        <legend><b>Formulir Pendaftaran</b></legend>
+        <form>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" placeholder="Masukkan nama">
+            <br><br>
+            <label>Email:</label><br>
+            <input type="email" placeholder="nama@email.com">
+            <br><br>
+            <label>Password:</label><br>
+            <input type="password">
+            <br><br>
+            <label>Umur:</label><br>
+            <input type="number" style="width: 45px;">
+            <br><br>
+            <label>Tanggal Lahir:</label><br>
+            <input type="date">
+            <br><br>
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="jk" value="Laki-laki">
+            Laki-laki<br>
+            <input type="radio" name="jk" value="Perempuan">
+            Perempuan
+            <br><br>
+            <label>Hobi:</label><br>
+            <input type="checkbox" name="hobi" value="Coding">
+            Coding<br>
+            <input type="checkbox" name="hobi" value="Gaming">
+            Gaming<br>
+            <input type="checkbox" name="hobi" value="Olahraga">
+            Olahraga
+            <br><br>
+            <label>Jurusan:</label><br>
+            <select name="jurusan">
+                <option value="">-- Pilih Jurusan --</option>
+                <option value="Informatika">Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Manajemen">Manajemen</option>
+            </select>
+            <br><br>
+            <label>Alamat:</label><br>
+            <textarea name="alamat" rows="4" cols="30"
+            placeholder="Masukkan alamat"></textarea>
+            <br><br>
+
+            <label>Foto:</label><br>
+            <input type="file" name="foto">
+            <br><br>
+            <label>Website:</label><br>
+            <input type="url" placeholder="https://example.com">
+            <br><br>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
